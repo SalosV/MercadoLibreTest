@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MeliAPP</string>
+    <string name="search">Search</string>
+    <string name="text_purchase">Purchase product</string>
+    <string name="button_purchase">You don\'t money. sorry</string>
+    <string name="text_product_detail">Detail product</string>
+    <string name="search_icon_desc">Search product\n</string>
+</resources>
