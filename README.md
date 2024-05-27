@@ -25,7 +25,7 @@ La capa de datos consiste en repositorios, que incluyen lógica de negocio, como
 
 ## Modularización
 
-![arquitectura](figure/figure4.png)
+![arquitectura]
 
 **MeliApp** adoptó las siguientes estrategias de modularización:
 
