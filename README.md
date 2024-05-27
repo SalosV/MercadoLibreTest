@@ -21,13 +21,13 @@ La capa de UI consiste en elementos de interfaz de usuario para configurar panta
 
 La capa de datos consiste en repositorios, que incluyen lógica de negocio, como consultar datos de la base de datos local y solicitar datos remotos de la red. Se implementa como una fuente de lógica de negocio "offline-first" y sigue el principio de [fuente única de verdad](https://es.wikipedia.org/wiki/Fuente_%C3%BAnica_de_verdad).<br>
 
-**Pokedex** es una aplicación "offline-first", lo que significa que es capaz de realizar todas, o un subconjunto crítico de sus funcionalidades principales sin acceso a Internet. Así, los usuarios no necesitan estar actualizando los recursos de la red todo el tiempo, lo que disminuye el consumo de datos. Para más información, puedes consultar [Construir una aplicación offline-first](https://developer.android.com/topic/architecture/data-layer/offline-first).
+**MeliApp** es una aplicación "offline-first", lo que significa que es capaz de realizar todas, o un subconjunto crítico de sus funcionalidades principales sin acceso a Internet. Así, los usuarios no necesitan estar actualizando los recursos de la red todo el tiempo, lo que disminuye el consumo de datos. Para más información, puedes consultar [Construir una aplicación offline-first](https://developer.android.com/topic/architecture/data-layer/offline-first).
 
 ## Modularización
 
 ![arquitectura](figure/figure4.png)
 
-**Pokedex** adoptó las siguientes estrategias de modularización:
+**MeliApp** adoptó las siguientes estrategias de modularización:
 
 - **Reutilización**: Modularizar adecuadamente el código reutilizable permite oportunidades para compartir código y, al mismo tiempo, limita el acceso al código en otros módulos.
 - **Construcción en Paralelo**: Cada módulo puede ejecutarse en paralelo, lo que reduce el tiempo de construcción.
